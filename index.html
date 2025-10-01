@@ -1,42 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saba Gull — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">Alex</a>
+  <header>
+    <h1>Saba Gull</h1>
+    <p>Aspiring Computer Scientist | Passionate Learner</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <nav>
-            <a href="#" class="active"> Home</a>
-            <a href="#" >Services</a>
-            <a href="#" >Skills</a>
-            <a href="#" >Education</a>
-            <a href="#" >Experience</a>
-            <a href="#" >Contact</a>
-        </nav>
-    </header>
-    <section class="home">
-        <div class="home-img">
-            <img src="main.jpg" alt="">
+  <div class="container">
+    <!-- About Section -->
+    <section id="about">
+      <div class="profile-card">
+        <img src="profile.jpg" alt="Saba Gull">
+        <h2>Saba Gull</h2>
+        <p>Computer Science Student at FJWU</p>
+        <div class="social-links">
+          <a href="https://github.com/sabagu003-ui" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/saba-gull/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </div>
-        <div class="home-content">
-            <h1>Hi, It's <span>Alex</span></h1>
-            <h3 class="typing-text">I'm a <span></span></h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus labore dolores esse. Odit similique doloribus tenetur doloremque, sunt commodi in ipsa repudiandae debitis deleniti blanditiis quibusdam quaerat neque asperiores ea.</p>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-            <a href="#" class="btn">Hire me</a>
-        </div>
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>I am a dedicated Computer Science student at Fatima Jinnah Women University, passionate about problem-solving and software development. I enjoy working on projects that challenge my skills in programming, design, and algorithms.</p>
+      </div>
     </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>My Projects</h2>
+      <ul>
+        <li><strong>Online Quiz App</strong> – A web-based quiz platform for students.</li>
+        <li><strong>University Complaint Management System</strong> – A system to manage and resolve university complaints.</li>
+        <li><strong>Canva Design Magazines</strong> – Creative magazine designs using Canva.</li>
+        <li><strong>Math Problem Solving Game</strong> – A game for practicing math skills interactively.</li>
+        <li><strong>Player Management System</strong> – A system for managing players and their performance records.</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:23-20911-074@cs.fjwu.edu.pk">23-20911-074@cs.fjwu.edu.pk</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Saba Gull | Portfolio</p>
+  </footer>
 </body>
 </html>
